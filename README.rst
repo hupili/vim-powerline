@@ -19,6 +19,10 @@ There is a way to add the function without disturbing original ``vim-powerline``
 However, the method is not (well) documented. 
 After wasting one hour, I ended in this intrusive customization...
 
+Screenshot:
+
+.. image:: https://raw.github.com/hupili/vim-powerline/develop/misc/screenshot/watch-out-marker.png
+
 =================
 Powerline for vim
 =================
