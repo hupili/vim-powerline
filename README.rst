@@ -5,6 +5,20 @@ DEPRECATION WARNING
 Plugin is currently in maintenance mode, no feature requests will be accepted.
 Vim-powerline will be deprecated in favour of https://github.com/Lokaltog/powerline once it is ready.
 
+===================
+About hupili/vim-powerline
+===================
+
+I fork this repo to add the following functions:
+
+   * Place a bright red "watch out" marker if the file is not 
+     in unix-style line ending... I don't want to be the jerk 
+     to check in a lot of diffs due to 'CR'.
+
+There is a way to add the function without disturbing original ``vim-powerline`` files. 
+However, the method is not (well) documented. 
+After wasting one hour, I ended in this intrusive customization...
+
 =================
 Powerline for vim
 =================
