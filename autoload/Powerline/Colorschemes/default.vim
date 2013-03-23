@@ -18,6 +18,7 @@ call Pl#Hi#Allocate({
 	\ 'mediumred'      : 124,
 	\ 'brightred'      : 160,
 	\ 'brightestred'   : 196,
+	\ 'warning'   : 190,
 	\
 	\ 'darkestpurple'  : 55,
 	\ 'mediumpurple'   : 98,
@@ -85,9 +86,9 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['watchout'], {
-		\ 'n': ['brightestred', ['bold']],
-		\ 'N': ['brightestred', ['bold']],
-		\ 'i': ['brightestred', ['bold']],
+		\ 'n': ['warning'],
+		\ 'N': ['warning'],
+		\ 'i': ['warning'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['currenttag', 'fullcurrenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
